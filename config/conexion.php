@@ -1,4 +1,5 @@
 <?php
+    /* TODO: Conexion BDD*/
     class Conectar{
         protected $dbh;
         protected function Conexion(){

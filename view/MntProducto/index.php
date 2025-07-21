@@ -8,11 +8,11 @@
 
   <body>
 
-  <?php require_once("../../mainleftpanel.php"); ?>
-
-  <?php require_once("../../mainheadpanel.php"); ?>
-
-  <?php require_once("../../mainrightpanel.php"); ?>
+  <?php 
+  require_once("../../mainleftpanel.php"); 
+  require_once("../../mainheadpanel.php");
+  require_once("../../mainrightpanel.php");
+  ?>
 
     <!-- ########## START: MAIN PANEL ########## -->
     <div class="br-mainpanel">
@@ -55,7 +55,10 @@
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
 
-    <?php require_once("modalmantenimiento.php"); require_once("../../mainjs.php");?>
+    <?php 
+    require_once("modalmantenimiento.php"); 
+    require_once("../../mainjs.php");
+    ?>
 
 
   </body>
